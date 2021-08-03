@@ -1,0 +1,21 @@
+header, body {
+    text-align: center;
+}
+p {
+    font-family: 'Open Sans';
+}
+#selectDiv {
+    display: flex;
+    justify-content: center;
+}
+#input {
+    width: 20vmax;
+}
+#btnDiv {
+    display: flex;
+    justify-content: center;
+    padding: 1vmax;
+}
+#output {
+    padding: 1vmax;
+}

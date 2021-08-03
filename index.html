@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en-GB'>
+	<head>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<title>Calculators</title>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+		<link rel='stylesheet' href='style.css'>
+		<link rel='stylesheet' href='./default.css'>
+		<link rel='icon' href='../assets/Transparent.png'>
+		<script src='script.js' defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>Calculators</h1>
+			<p id='description'>Choose a calculator from the list below.</p>
+		</header>
+        <main>
+			<div id='selectDiv'>
+				<label>
+					<strong>Calculator type:</strong>
+					<br>
+					<select id='calcType'>
+						<optgroup label='CHOOSE AN OPTION'>
+						<option hidden disabled selected></option>
+						<option value='prime'>Prime Number</option>
+						<option value='factor'>Factor</option>
+						<option value='common-factor' hidden>Common Factor</option>
+						<option value='multiple'>Multiple</option>
+						<option value='common-multiple' hidden>Common Multiple</option>
+						</optgroup>
+					</select>
+				</label>
+			</div>
+            <input type="number" placeholder="Enter a number" autocomplete='off' id='input' autofocus='true'>
+			<div id='extraInput'></div>
+			<div id='btnDiv'>
+				<button id="calcBtn">Calculate</button>
+			</div>
+			<div id='output'></div>
+        </main>
+	</body>
+</html>

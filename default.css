@@ -1,0 +1,74 @@
+/* Default stylesheet used in all pages for consistency and conveniency */
+:root {
+	--elemBgCol: rgb(240, 240, 240);
+}
+body {
+	color: rgb(240, 240, 240);
+	background-color: rgb(20, 20, 20);
+	font-family: 'Open Sans', Helvetica, Arial;
+	padding: 0vmax 1vmax;
+	font-size: 1.25rem;
+}
+header {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+	font-size: 2.8rem; 
+}
+p {
+	margin-bottom: 2vmax;
+}
+button {
+	font-family: 'Open Sans';
+	background-color: var(--elemBgCol);
+	font-size: 1rem;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	margin: 1vmin;
+	padding: 2vmax 3vmax;
+	transition-duration: 0.4s;
+	transition-property: all;
+}
+button:hover {
+	background-color: rgb(150, 150, 150);
+	color: white;
+	cursor: pointer;
+}
+input {
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: var(--elemBgCol);
+	width: 12vmax;
+	padding: 1.2vmax;
+	margin: 1vmax;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+}
+input::placeholder {
+	font-size: 80%;
+}
+select {
+	font-family: 'Open Sans';
+	background-color: rgb(242, 242, 242);
+	font-size: 1rem;
+	padding: 1.2vmax;
+	margin: 1vmax;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+	transition-duration: 0.4s;
+	transition-property: all;
+}
+select:hover {
+	cursor: pointer;
+}
+footer {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	padding: 1vmax;
+}
